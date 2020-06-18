@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div#kenobi
+    img(src="/images/kenobi.png", alt="General Kenobi", onClick="playGreeting('kenobi')")
+    h2 Hello there!
+
+  div#grievous
+    img(src="/images/grievous.png", alt="General Grievous", height="500", onClick="playGreeting('grievous')")
+    h2 General Kenobi.
+
+  script
+    include ../controllers/mainController.js
