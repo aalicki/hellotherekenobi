@@ -2,12 +2,11 @@
   "name": "hellotherekenobi",
   "version": "1.0.0",
   "description": "None",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "10.x"
   },
   "scripts": {
-    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
